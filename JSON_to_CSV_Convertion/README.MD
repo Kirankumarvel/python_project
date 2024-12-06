@@ -1,8 +1,18 @@
-Convert a json file into a csv
-This script take a json file as input and generate a csv file in output.
+# JSON to CSV Converter
 
-Prerequisites modules
-json
-Run pip install json to install required external modules.
-How to run the script
-Execute python3 converter.py
+This script converts a JSON file into a CSV file. It takes a JSON file as input and generates a corresponding CSV file as output.
+
+## Prerequisites
+
+This script requires the following Python module:
+
+- `json` (Note: This module is included in Python's standard library, so no installation is necessary.)
+
+## How to Run the Script
+
+1. Ensure you have Python installed on your system. You can check this by running:
+   ```bash
+   python --version
+
+```bash
+python converter.py
